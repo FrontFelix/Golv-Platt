@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+:root {
+    --darkBlack: #1B202A;
+    --mainBlue: #000099;
+}
+
+.content-left h1 {
+    font-weight: 300 !important;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Anton', sans-serif;
+}
+
+.content-left p {
+    font-family: 'Questrial', sans-serif;
+    color: #707070;
+}
+
+.content-right a, .content-left a  {
+    font-family: 'Questrial', sans-serif;
+    background-color: var(--mainBlue);
+    text-transform: uppercase;
+}
+
+.border-box {
+    position: absolute;
+    bottom: -120px;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    border-left: 2px solid #707070;
+    border-bottom: 2px solid #707070;
+}
+
+.content-left {
+    position: relative;
+}
+
+
+/* SERVICE */
+
+.service-box {
+    position: relative;
+    background-color: var(--mainBlue);
+    width:300px;
+    height: 300px;
+}
+.service-box img {
+    object-fit: cover;
+}
+
+.service-title {
+    border-radius: 0 0 8px 0;
+    background-color: var(--mainBlue);
+    top: 15px;
+    position: absolute;
+}
+
+/* SERVICE */
+
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+}
+
+/* FOOTER */
